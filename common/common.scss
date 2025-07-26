@@ -1,0 +1,59 @@
+.daily-widget-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5em;
+  padding: 1em 0;
+  max-width: 100%;
+}
+
+.quote-widget {
+  background: #fffbe6;
+  padding: 1em;
+  border-left: 5px solid #f4b400;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #333;
+  font-style: italic;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+  
+.quote-title{
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 0.5em;
+    font-size: 16px;
+    text-align: center;
+}
+
+  p {
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  em {
+    font-style: normal;
+    font-weight: 600;
+  }
+}
+
+.joke-widget {
+  background: #e6f7ff;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+
+  .joke-title {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    font-size: 16px;
+    color: #000;
+    text-align: left;
+  }
+
+  .joke-text {
+    font-style: normal;
+  }
+}
+
